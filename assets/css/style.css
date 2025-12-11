@@ -2385,6 +2385,10 @@ h6 a {
   margin-block-end: 20px !important;
 }
 
+.mb-2 {
+  margin-block-end: 10px !important;
+}
+
 .ms-20 {
   margin-inline-start: 20px !important;
 }
@@ -4010,6 +4014,11 @@ h6 a {
 .section-header--max50 {
   max-inline-size: 75ch;
   margin: 0 auto 48px auto;
+}
+.section-header--max40 {
+  max-inline-size: 85ch;
+  margin: 0 auto 48px auto;
+  text-align: center;
 }
 @media (max-width: 767px) {
   .section-header--max50 {
